@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>練習&測驗選擇</title>
+  <link rel="stylesheet" href="static/style2.css"> <!-- 引入外部CSS檔案 -->
+</head>
+<style>
+  .arrow-wrapper {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+.back-button {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 12px 25px;
+  font-size: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #ffffff;
+}
+</style>
+<body>
+    <header>
+        <h1>點亮天燈</h1>
+      </header>
+
+  <div class="button-container">
+    <button class="button button1" onclick="location.href='練習版.html'">練習版(5個天燈)</button>
+    <button class="button button2" onclick="location.href='index.html'">測驗版(隨機數量)</button>
+  </div>
+  <div class="arrow-wrapper">
+        <span class="back-button" onclick="location.href='Home screen.html'">X</span>
+  </div>
+</body>
+</html>
